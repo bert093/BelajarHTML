@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.image-container {
+    height: 220px;
+    width: 800px;
+    background-color: rgb(167, 218, 219);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.image-container img {
+    width: 200px;
+    height: 100px;
+}

@@ -1,0 +1,8 @@
+.lingkaran {
+    width: 100px;
+    height: 100px;
+    background-image:url(gambar1.jpg);
+    background-size: cover; /*kalau tanpa cover gak mungkin ada hasil gambar aslinya */
+    background-position: center;
+    border-radius: 50%;
+}

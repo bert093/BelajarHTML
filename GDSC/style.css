@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.parent-box {
+    /* bisa menggunakan min-width atau min-height untuk memaksimalkan warnanya pada webnya */
+    height: 450px;
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 5px 5px;
+    align-items: center;
+    /* gap: 200px 20px; contohnya ini, yang 200px mengatur secara vertikal dan 20px akan mengatur horizontalnya */
+    /* gap: 20px berguna juga untuk mengatur jaraknya tapi perhatikan terlebih dahulu lebar dan tingginya */
+    /* align-content: space-between; jika ada warna di bawahnya bakal menjauh hingga paling bawah */
+    /* align-items: end; warnanya bakal ke bawah */
+    /* align-items: center; warnanya akan ketengah tapi tidak akurat kalau lebarnya terlalu besar*/
+    /* align-self: flex-end; warnanya akan ke bawah atau ke ujung paling bawah
+    /* justify-content: space-evenly; jarak antara warnanya sama */
+    /* justify-content: space-around; jarak antara warnanya punya jarak dikiri maupun dikanannya */
+    /* justify-content: space-between; ada jarak antara warnanya */
+    /* justify-content: center; bakal menyesuaikan ke tengah tengahnya */
+    /* justify-content: flex-end; bakal menyesuaikan sampai ke paling ujung kanan webnya */
+    /* flex-wrap: wrap-reverse; warna yang terakhir menjadi warna pertama dan seterusnya */
+    /* flex-wrap: wrap; bakal kebawah warna goldnya */
+    /* contoh flex-direction atas atau ke bawah flex-direction: column-reverse; */
+    /* contoh flex direction terbalik kiri atau kekanan flex-direction: row-reverse; */
+    /* contoh flex-direction flex-direction: column;*/
+}
+
+.children-box {
+    height: 120px;
+    width: 120px; 
+    background-color: blueviolet;
+}
+
+contoh menggunakan order 
+#first-box.children-box {
+    order: 1;
+}
+#two-box.children-box {
+    order: 1;
+}
+#three-box.children-box {
+    order: 1;
+}
+#four-box.children-box {
+    order: 1;
+}
+#five-box.children-box {
+    order: 1;
+}
+#six-box.children-box {
+    order: 1;
+}
+
+/* #three-box.children-box {
+    flex-grow: ; mengatur suatu elemen lebih besar dari pada yang lainnya
+} */

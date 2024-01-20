@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../Flutter/BelajarFlutter"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Dart-file/belajar_dart_1/bin"
+		},
+		{
+			"path": "../BelajarFlutter/belajar2"
+		},
+		{
+			"path": "../BelajarJava"
+		},
+		{
+			"path": "../BelajarFlutter/belajar1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BelajarHTML",
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
